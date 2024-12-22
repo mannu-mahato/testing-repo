@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print jobs
-        run: echo "hello world"
+        run: | 
+          echo "hello world"
+          echo "$(uname)"
       - name: print date & time
         run: echo "$(date)"
 
