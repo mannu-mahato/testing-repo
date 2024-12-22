@@ -7,6 +7,6 @@ jobs:
       - name: Print jobs
         run: echo "hello world"
       - name: print date & time
-        run: echo date
+        run: echo $date
 
   
