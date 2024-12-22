@@ -1,0 +1,12 @@
+name: Action-testing
+on: workflow_dispatch
+jobs: 
+  Action-testing-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print jobs
+        run: echo "hello world"
+      - name: print date & time
+        run: echo date
+
+  
