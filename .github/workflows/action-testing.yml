@@ -7,7 +7,7 @@ jobs:
       - name: Print jobs
         run: | 
           echo "hello world"
-          echo "$(uname)"
+          echo "$(uname -a)"
       - name: print date & time
         run: echo "$(date)"
 
