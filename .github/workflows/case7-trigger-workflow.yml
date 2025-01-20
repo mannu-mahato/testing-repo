@@ -1,5 +1,7 @@
-name: Action-testing
-on: workflow_dispatch
+name: triggering workflow
+on: 
+  repository_dispatch: 
+    types: [workflow-dispatch]
 jobs: 
   Action-testing-job:
     runs-on: ubuntu-latest
